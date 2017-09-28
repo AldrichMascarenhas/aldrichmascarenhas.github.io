@@ -4857,6 +4857,7 @@
 			height: 21rem;
 			border-radius: 100%;
 			margin: 0 3.5rem 2rem 0;
+			background-color:white;
 		}
 
 			.spotlight.style2 .image img {
@@ -6345,6 +6346,7 @@
 					-webkit-pointer-events: auto;
 					-ms-pointer-events: auto;
 					pointer-events: auto;
+					opacity: 1;
 				}
 
 				.gallery.style1 article .caption h2, .gallery.style1 article .caption h3, .gallery.style1 article .caption h4, .gallery.style1 article .caption h5, .gallery.style1 article .caption h6 {
