@@ -22,7 +22,7 @@
 
 					
 
-					<section class="spotlight onscroll-image-fade-in style4 fullscreen orient-right content-align-right image-position-center">
+					<section class="spotlight onscroll-image-fade-in style4 fullscreen orient-left content-align-right image-position-right">
 						<div class="content">
 							<h2>GIFt</h2>
 							<p>GIFt is an Android App that enabled users to share and view Gifs inline in Messaging Platforms that didn't have native Gif support. GIFt uses the GIPHY Api to provide Gif Images.</p>
@@ -39,19 +39,32 @@
 
 					<section class="wrapper style1 align-center" id="main">
 						<div class="inner">
-							<h2>Accomplishments</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi id ante sed ex pharetra lacinia sit amet vel massa. Donec facilisis laoreet nulla eu bibendum. Donec ut ex risus. Fusce lorem lectus, pharetra pretium massa et, hendrerit vestibulum odio lorem ipsum.</p>
+							<h2>GIFt - Link a GIF</h2>
+
+        					<p>GIFt is an Android App that enabled users to share and view Gifs inline in Messaging Platforms that didn't have native Gif support.<p>
+
+        					<p>GIFt uses the <a href="https://developers.giphy.com" target="_blank"><span class="accent_font">GIPHY Api</span></a> that makes it dead simple for developers to incorporate GIPHY's vast library right inside of their apps. Retrofit and OkHttp are used to handle and make all Network Requests.</p>
+
+
+
+
+					        <p>GIFt makes use of DeepLinkDispatch developed by AirBnB that provides a declarative, annotation-based API to define application deep links. DeepLinks are 
+					        <a href="https://github.com/AldrichMascarenhas/GIFt/blob/master/app/src/main/java/com/nerdcutlet/gift/activities/GifActivity.java#L41" target="_blank"><span class="accent_font">registered</span></a> in the Activity of the App, and depending on the 
+					        <a href="https://github.com/AldrichMascarenhas/GIFt/blob/master/app/src/main/java/com/nerdcutlet/gift/activities/GifActivity.java#L112" target="_blank"><span class="accent_font">type of ID </span></a>
+					        pulled out from the deep link, the appropriate GIF is downloaded and displayed.
+					         </p>
+
 
 							<div class="index align-left">
 
 							<!-- Heading -->
 									<section>
-										<header>
+										<!-- <header>
 											<h3>Headings</h3>
-										</header>
+										</header> -->
 										<div class="content">
 
-											<header>
+										<!-- 	<header>
 												<h3>Heading with a Subtitle</h3>
 												<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
 											</header>
@@ -106,21 +119,21 @@
 													</tbody>
 													
 												</table>
-											</div>
+											</div> -->
 
-											<h4>Vertical + Small + Fit</h4>
+											<h4>Download</h4>
 											<ul class="actions vertical small">
-												<li><a href="#" class="button special fit">Default</a></li>
-												<li><a href="#" class="button special small fit icon fa-search">Small</a></li>
-												<li><a href="#" class="button small fit icon fa-search">Small</a></li>
+												<li><a href="https://play.google.com/store/apps/details?id=com.nerdcutlet.gift&hl=en" target="_blank" class="button special fit icon fa-google">Google Play Store</a></li>
+												<li><a  href="https://github.com/AldrichMascarenhas/GIFt" target="_blank" class="button   fit icon fa-github">Github</a></li>
 											</ul>
 
-											<h4>Fit</h4>
-											<span class="image fit"><img src="images/banner.jpg" alt="" /></span>
+											<header>
+												<h3>Images</h3>
+<!-- 												<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
+ -->											</header>
+											<span class="image fit lightbox"><img src="images/porto/gift/banner1.png" alt="" /></span>
+											<span class="image fit"><img src="images/porto/gift/display1.png" alt="" /></span>
 
-
-											<h4>Fit</h4>
-											<span class="image fit"><img src="images/banner.jpg" alt="" /></span>
 
 
 
@@ -138,7 +151,7 @@
 				<!-- Footer -->
 					<footer class="wrapper style1 align-center">
 						<div class="inner">
-							<p>&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+							<p>&copy; Aldrich Mascarenhas. 2017</p>
 						</div>
 					</footer>
 
